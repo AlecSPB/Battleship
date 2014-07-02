@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">BattleShip</string>
+<string-array name="rows">
+    <item>A</item>
+    <item>B</item>
+    <item>C</item>
+    <item>D</item>
+    <item>E</item>
+    <item>F</item>
+    <item>G</item>
+    <item>H</item>
+    <item>I</item>
+    <item>J</item>
+</string-array>
+    <string-array name="columns">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="direction">
+        <item>North</item>
+        <item>South</item>
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+    <string-array name="ships">
+        <item>Aircraft Carrier(size 5)</item>
+        <item>Battleship(size 4)</item>
+        <item>Submarine(size 3)</item>
+        <item>Destroyer(size 2)</item>
+        <item>Patrol Boat(size 1)</item>
+    </string-array>
+</resources>

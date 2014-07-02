@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username:"
+                    android:id="@+id/textViewUser"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextUser"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password:"
+                    android:id="@+id/textViewPassword"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/editTextPassword" android:layout_column="0"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:id="@+id/buttonLogin" android:onClick="loginToServer"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Users"
+                    android:id="@+id/buttonShowUsers" android:layout_column="0" android:onClick="getUsersOnClick"
+                    android:enabled="false" android:visibility="invisible"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listViewUsers" android:drawSelectorOnTop="true" android:visibility="invisible"/>
+        </TableRow>
+        <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"/>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/goToPreferences"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_preferences"
+            android:title="Preferences" />
+    <item
+            android:id="@+id/goToGame"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/board"
+            android:title="Game" />
+    <item
+            android:id="@+id/goToLogin"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/users"
+            android:title="Game" />
+</menu>
